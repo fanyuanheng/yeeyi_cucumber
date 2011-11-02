@@ -1,6 +1,8 @@
+#!/bin/bash
+
 echo "Starting Yeeyi Post Scenarios..."
 while true; do
   echo "Next run in 10 minutes..."
-  cucumber
+  cucumber -t ~@ended --format pretty
   sleep 600
 done

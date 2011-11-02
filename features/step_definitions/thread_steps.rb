@@ -6,8 +6,8 @@ When /^I click thread reply button$/ do
   find('a#post_reply').click
 end
 
-When /^I reply the thread as "([^"]*)"$/ do |post_message|
-  find('textarea#postmessage').set post_message
+When /^I reply the thread$/ do
+  find('textarea#postmessage').set "This is an auto reply message generated at #{Time.now.to_s} by yeeyi auto-reply bot"
 end
 
 When /^I click thread reply confirm button$/ do
