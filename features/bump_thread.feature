@@ -1,6 +1,7 @@
-Feature: As an user, I want to bump up my thread, so that my thread can always be one of the top threads
+Feature: As an user, I want to bump up my advertisements, so that my advertisements can always be one of the top advertisements
   
   @ended  
+  @2/11/2011
   Scenario: Bump up 54 oakes ave renting thread
     Given I am on yeeyi home page
     When I log in
@@ -11,6 +12,7 @@ Feature: As an user, I want to bump up my thread, so that my thread can always b
     Then I log out
   
   @ended
+  @2/11/2011
   Scenario: Bump up 54 oakes ave IKEA furniture sale thread
     Given I am on yeeyi home page
     When I log in
