@@ -7,7 +7,7 @@ When /^I click thread reply button$/ do
 end
 
 When /^I reply the thread$/ do
-  find('textarea#postmessage').set "This is an auto reply message generated at #{Time.now.to_s} by yeeyi auto-reply bot"
+  find('textarea#postmessage').set "This is an auto reply message generated at #{Time.now.to_s} by yozza's auto-reply bot, follow me on weibo @yozza"
 end
 
 When /^I click thread reply confirm button$/ do
