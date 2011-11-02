@@ -10,6 +10,7 @@ Feature: As an user, I want to bump up my thread, so that my thread can always b
     And I click thread reply confirm button
     Then I log out
   
+  @ended
   Scenario: Bump up 54 oakes ave IKEA furniture sale thread
     Given I am on yeeyi home page
     When I log in
